@@ -1,0 +1,52 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="col-2 con2">
+        <div class="nav">
+          <p id="circle1">1</p>
+          <p id="circle2">2</p>
+        </div>
+        <div id="visability" class="visability">
+          <div class="onPage">
+            <h1>Personal Information</h1>
+            <form action="">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" />
+              <label for="pass">Password</label>
+              <input type="password" name="" id="pass" />
+              <label for="address">Address</label>
+              <input type="text" id="address" />
+            </form>
+            <button onclick="next()" id="page1">Next</button>
+          </div>
+        </div>
+        <!-- page 2 -->
+        <div id="nextt" class="nextt">
+          <h1>Contact US</h1>
+          <form action="">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" />
+            <label for="num">Phone Number</label>
+            <input type="tel" name="" id="num" />
+            <label for="num2">WhatsApp Number</label>
+            <input type="tel" id="num2" />
+          </form>
+          <div class="btns">
+            <button onclick="back()" id="page2">Back</button>
+            <button id="submit">Submit</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
